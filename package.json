@@ -1,0 +1,21 @@
+{
+  "name": "@gongxq/doom",
+  "version": "1.0.0",
+  "description": "A Basic Barrage Library",
+  "main": "lib/index.js",
+  "author": "BetaMee <gongxq95@outlook.com>",
+  "license": "MIT",
+  "files": ["lib/**/*"],
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:BetaMee/Doom.git"
+  },
+  "scripts": {
+    "build": "tsc",
+    "lint": "tslint -p tsconfig.json"
+  },
+  "devDependencies": {
+    "tslint": "^6.1.1",
+    "typescript": "^3.8.3"
+  }
+}
