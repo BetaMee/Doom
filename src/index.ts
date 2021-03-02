@@ -1,5 +1,4 @@
 import Scheduler from './Scheduler'
-
 class Doom extends Scheduler {
     animationId: number = 0
     // 底部弹幕
